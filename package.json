@@ -1,0 +1,30 @@
+{
+  "name": "tts-watson",
+  "version": "0.0.1",
+  "description": "CLI for Watson TTS. A command line interface for IBM Watson Text To Speech.",
+  "bin": {
+    "tts-watson": "cli.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "tts",
+    "ibm",
+    "watson",
+    "text to speech",
+    "command line interface",
+    "tts-watson"
+  ],
+  "author": "Luis Reinoso <lomejordejr@gmail.com> (http://luisreinoso.github.io)",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5",
+    "play-sound": "^1.1.3",
+    "read-config": "^2.0.0",
+    "watson-developer-cloud": "^3.18.1"
+  }
+}
